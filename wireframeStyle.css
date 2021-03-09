@@ -1,0 +1,139 @@
+body {
+  /* Off white background color */
+  background-color: #f8f9fa;
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+}
+
+/* Navigation tab styling */
+.navigation-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  border: 2px solid none;
+  border-radius: 25px;
+  background-color: #bde0fe;
+  padding: 15px;
+  margin: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+.page-container {
+  position: relative;
+  min-height: 100%;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.header-styling {
+  font-family: 'Baskervville', serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 25px;
+  padding: 25px;
+}
+
+main {
+  margin: 25px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+}
+
+.enclosed-recipe {
+  background-color: #daa49a;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 25px;
+  border: 2px solid white;
+}
+
+/* Button and background image style */
+.button-style {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.container,
+img {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  opacity: 0.85;
+}
+
+.get-started-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -250%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  background-color: #0096c7;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* login button */
+.login-button {
+  color: white;
+  background-color: #0096c7;
+  font-size: 16px;
+  padding: 8px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.login-form {
+  line-height: 2;
+}
+
+/* FOOTER styling */
+footer {
+  text-align: center;
+  background-color: #c9c9cf;
+  padding-top: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+/* Mobile styling */
+@media all and (min-width: 800px) {
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: row;
+  }
+}
